@@ -1,0 +1,19 @@
+{
+  "name": "node-starter",
+  "description": "A simple node js template with jest testing",
+  "vesrsion": "0.0.0",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest --watchAll",
+    "single-test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
