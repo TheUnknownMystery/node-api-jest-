@@ -1,6 +1,6 @@
 const app = require('./app');
-const { PORT } = require('./variables/env-variable');
+const { PORT, PRODUCTION } = require('./variables/env-variable');
 
 app.listen(PORT, () => {
-  console.log(`please visit http://localhost:${PORT}`);
+  PRODUCTION ? console.log(`please visit http://localhost:${PORT}`) : null;
 });
