@@ -1,3 +1,8 @@
-# node-3uwzf5
+# Node JS Starter Project
+A simple node js and express starter with testig enabled
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-3uwzf5)
+# Get Started
+
+yarn start - start the project
+yarn dev - start projects in dev mode
+yarn test - test the app with jest
