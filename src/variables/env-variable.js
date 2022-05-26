@@ -1,6 +1,6 @@
-require('dotenv').config()
+require('dotenv').config();
 
 module.exports = {
-	PORT: process.env.PORT,
-	PRODUCTION: process.env.PRODUCTION
-}
+  PORT: process.env.PORT,
+  DEVELOPEMENT: process.env.DEVELOPEMENT,
+};
